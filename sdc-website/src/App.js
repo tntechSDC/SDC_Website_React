@@ -4,6 +4,9 @@ import React from "react"; //this is for class components
 import Navbar from './components/navbar.js';
 import transparentLogo from './images/Favicon.png';
 import firstMeeting from "./images/firstMeeting.png";
+import Projects from './components/projects.js';
+import AboutUs from './components/about_us.js';
+import ContactUs from './components/contact_us.js';
 
 //colors 
 // yellow is #f3d586
@@ -52,6 +55,18 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="containter-fluid pe-5 ps-5 pt-3 pb-5">
+        <div className="row">
+          <div className="col-sm-3">
+            <div className="float-end">
+              <h4>Current Projects</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Projects />
+      <AboutUs />
+      <ContactUs />
     </div>
   );
 }
