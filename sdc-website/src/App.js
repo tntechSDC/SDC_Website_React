@@ -24,7 +24,7 @@ function App() {
         </div>
       </div>
       <Navbar />
-      <div className="container-fluid ps-5 pe-5 pt-1 pb-1" style={{ backgroundColor: "#999999" }}>
+      <div className="container-fluid ps-5 pe-3 pt-1 pb-1" style={{ backgroundColor: "#999999" }}>
       <img src={firstMeeting} className="rounded mx-auto d-block" alt="first meeting" style={{ width: '1000px', borderRadius: '50px' }}/>
       </div>
       <div className="container-fluid p-3" style={{ backgroundColor: "#f3d586" }}>
@@ -55,18 +55,21 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="container-fuild pt-2" style={{ backgroundColor: "#B3B3B3" }}>
       <div className="containter-fluid pe-5 ps-5 pt-3 pb-5">
         <div className="row">
           <div className="col-sm-3">
             <div className="float-end">
-              <h4>Current Projects</h4>
+              <h3>Current Projects</h3>
             </div>
           </div>
         </div>
       </div>
-      <Projects />
-      <AboutUs />
-      <ContactUs />
+        <Projects />
+        <AboutUs />
+        <ContactUs />
+      </div>
+      
     </div>
   );
 }
