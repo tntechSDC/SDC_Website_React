@@ -17,7 +17,10 @@ const Navbar = () => {
               <a className="nav-link" href="https://forms.gle/csKZr5wNYqSbP42s7" target="_blank" style={{ fontSize: '20px', color: '#33322D' }}>Submit a Project Idea</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="sponsorship.html" style={{ fontSize: '20px', color: '#33322D' }}>Sponsorship</a>
+              <NavLink className="nav-link" to="/sponsorship" style={{ fontSize: '20px', color: '#33322D' }}>Sponsorship</NavLink>
+              </li>
+              <li className="nav-item">
+              <NavLink className="nav-link" to="/contact-us" style={{ fontSize: '20px', color: '#33322D' }}>Contact Us</NavLink>
             </li>
           </ul>
         </div>

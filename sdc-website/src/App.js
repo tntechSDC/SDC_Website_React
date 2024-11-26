@@ -3,6 +3,8 @@ import React from "react"; //this is for class components
 import HomePage from "./pages/home.js";
 import ContactUs from "./pages/contactUs.js";
 import Sponsorship from "./pages/sponsorship.js";
+import { Route, Routes } from 'react-router-dom';
+
 //colors 
 // yellow is #f3d586
 // purple is #8e7cc3

@@ -1,10 +1,10 @@
 import React from "react"; //this is for class components
-import Navbar from './components/navbar.js';
-import transparentLogo from './images/Favicon.png';
-import firstMeeting from "./images/firstMeeting.png";
-import Projects from './components/projects.js';
-import AboutUs from './components/about_us.js';
-import ContactUs from './components/contact_us.js';
+import Navbar from '../components/navbar.js';
+import transparentLogo from '../images/Favicon.png';
+import firstMeeting from "../images/firstMeeting.png";
+import Projects from '../components/projects.js';
+import AboutUs from '../components/about_us.js';
+import ContactUs from '../components/contact_us.js';
 
 function HomePage() {
     return (
